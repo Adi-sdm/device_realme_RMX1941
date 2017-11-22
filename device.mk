@@ -215,6 +215,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)   
 
+# Reduce system image size by limiting java debug info.
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
 PRODUCT_PACKAGES += \
     ImsServiceBase
 	
