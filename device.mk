@@ -197,14 +197,6 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
-# Screen density
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
-
-# Telephony
 PRODUCT_BOOT_JARS += \
     mediatek-common \
     mediatek-framework \
@@ -212,7 +204,14 @@ PRODUCT_BOOT_JARS += \
     mediatek-ims-common \
     mediatek-telecom-common \
     mediatek-telephony-base \
-    mediatek-telephony-common    
+    mediatek-telephony-common
+
+# Screen density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)   
 
 PRODUCT_PACKAGES += \
     ImsServiceBase
