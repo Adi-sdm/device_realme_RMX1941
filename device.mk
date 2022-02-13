@@ -136,6 +136,10 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.RMX1941
+	
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
