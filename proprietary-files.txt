@@ -1253,9 +1253,6 @@ vendor/etc/factory.ini
 vendor/etc/fstb.cfg
 vendor/etc/mtk_omx_core.cfg
 vendor/etc/ncf_pack.ncf
-vendor/etc/power_whitelist_cfg.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/slp_conf
 vendor/etc/smsdbvisitor.xml
 vendor/etc/special_pws_channel.xml
