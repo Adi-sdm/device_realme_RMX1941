@@ -35,6 +35,10 @@ $(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
 # VNDK
 PRODUCT_SHIPPING_API_LEVEL := 28
 
+# Disable APEX compression
+# Keep this after including updatable_apex.mk
+PRODUCT_COMPRESSED_APEX := false
+
 # APNs
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
