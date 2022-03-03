@@ -341,11 +341,9 @@ PRODUCT_PACKAGES += \
     fstab.mt6765 \
     ueventd.mt6765.rc
 
-# RcsService
+# Recovery
 PRODUCT_PACKAGES += \
-    com.android.ims.rcsmanager \
-    PresencePolling \
-    RcsService
+    init.recovery.mt6765.rc
 
 # RenderScript
 PRODUCT_PACKAGES += \
