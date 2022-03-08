@@ -1040,8 +1040,6 @@ on init
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice
 
 on boot
-
-<<<<<<< HEAD
 # Qiang.shao@PSW.AD.OppoFeature.CommonSoft.1181235, 2016/07/30, Add for self_init domain to access block_device for init prop
 service prop-adap-core /vendor/bin/self-init core
     class core
