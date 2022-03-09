@@ -657,7 +657,7 @@ lib/libvcodec_cap.so
 lib/libvcodec_capenc.so
 lib/libvt_avsync.so
 lib/vendor.mediatek.hardware.videotelephony@1.0.so
-lib64/libmtk_vt_wrapper.so
+lib64/libmtk_vt_wrapper.so:priv-app/ImsService/lib/arm64/libmtk_vt_wrapper.so
 lib64/libmtkaudio_utils.so
 lib64/libmtklimiter.so
 lib64/libmtkperf_client.so
