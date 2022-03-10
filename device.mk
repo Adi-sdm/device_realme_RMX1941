@@ -87,7 +87,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.a2dp@1.0 \
     android.hardware.bluetooth.a2dp@1.0.vendor \
     android.hardware.bluetooth@1.0.vendor \
-    libbtconfigstore
+    libbtconfigstore \
+    libldacBT_bco \
+    libldacBT_dec
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -130,6 +132,7 @@ PRODUCT_PACKAGES += \
     libmockdrmcryptoplugin
 
 PRODUCT_PACKAGES += \
+    android.hardware.drm@1.3 \
     android.hardware.drm@1.3.vendor \
     android.hardware.drm@1.3-service.clearkey
 
@@ -384,6 +387,7 @@ PRODUCT_PACKAGES += \
 
 # Tethering
 PRODUCT_PACKAGES += \
+    TetheringOverlay \
     TetheringConfigOverlay
 
 # Thermal
@@ -393,6 +397,9 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
+	android.hardware.usb@1.1.vendor \
+    android.hardware.usb@1.0 \
+    android.hardware.usb@1.1  \
     android.hardware.usb@1.1.vendor
 
 # Vibrator
@@ -418,7 +425,16 @@ PRODUCT_PACKAGES += \
     WifiOverlay
 
 PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0.vendor \
+    android.hardware.wifi@1.1.vendor \
+    android.hardware.wifi@1.2.vendor \
     android.hardware.wifi@1.3.vendor \
+    android.hardware.wifi.supplicant@1.0.vendor \
+    android.hardware.wifi.supplicant@1.1.vendor \
+    android.hardware.wifi.hostapd@1.0.vendor \
+    android.hardware.wifi.hostapd@1.1.vendor \
+    android.hardware.wifi.hostapd@1.0 \
+    android.hardware.wifi.hostapd@1.1 \
     android.hardware.wifi.supplicant@1.2.vendor \
     android.hardware.wifi.hostapd@1.1.vendor \
     libkeystore-engine-wifi-hidl \
