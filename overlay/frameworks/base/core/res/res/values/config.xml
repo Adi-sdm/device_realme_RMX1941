@@ -716,4 +716,6 @@
 
     <!-- True if Unprocessed audio source supports the required frequency range and level -->
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
+	
+	<string name="config_ims_package">com.mediatek.ims</string>
 </resources>
