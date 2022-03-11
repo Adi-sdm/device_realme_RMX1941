@@ -13,6 +13,7 @@ ro.opengles.version=196610
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=180
 ro.zram.periodic_wb_delay_hours=24
+ro.config.low_ram2g=true
 
 # Dex
 dalvik.vm.dex2oat64.enabled=true
