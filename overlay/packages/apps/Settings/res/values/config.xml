@@ -32,5 +32,11 @@
 	
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+	
+    <bool name="config_enableColorTemperature">true</bool>
+    <bool name="config_handle_sim_slot_change">true</bool>
+    <bool name="config_show_refresh_rate_controls">true</bool>
+    <bool name="has_powermenu">true</bool>
+    <bool name="simple_cache_enable_im_memory">true</bool>
 </resources>
 	
