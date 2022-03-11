@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carrier_config_list xmlns:android="http://schemas.android.com/apk/res/android">
     <carrier_config>
-        <boolean name="carrier_volte_available_bool" value="false"/>
-        <boolean name="carrier_vt_available_bool" value="false"/>
-        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
     </carrier_config>
     <carrier_config operator="SMARTFREN">
         <boolean name="carrier_volte_available_bool" value="true"/>
         <boolean name="carrier_vt_available_bool" value="true"/>
-        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
         <boolean name="oppo_ussd_over_ims" value="true"/>
         <string-array name="mccmnc" num="2">
             <item value="51009"/>
@@ -97,10 +97,10 @@
     <carrier_config operator="JIO">
         <boolean name="carrier_volte_available_bool" value="true"/>
         <boolean name="carrier_vt_available_bool" value="true"/>
-        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
         <boolean name="support_video_conference_call_bool" value="true"/>
         <boolean name="oppo_support_video_cf_bool" value="true"/>
-        <boolean name="config_oppo_support_viwifi_bool" value="false"/>
+        <boolean name="config_oppo_support_viwifi_bool" value="true"/>
         <boolean name="config_oppo_sms_ims_support_bool" value="true"/>
         <boolean name="config_oppo_lte_preferred_for_second_slot" value="true"/>
         <boolean name="config_oppo_hide_3g_2g" value="true"/>
@@ -253,7 +253,7 @@
     <carrier_config operator="JIO">
         <boolean name="carrier_volte_available_bool" value="true"/>
         <boolean name="carrier_vt_available_bool" value="true"/>
-        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
         <boolean name="config_oppo_hide_3g_2g" value="true"/>
         <boolean name="config_oppo_lte_preferred_for_second_slot" value="true"/>
         <boolean name="config_oppo_dual_lte_available_bool" value="true"/>
