@@ -90,6 +90,11 @@ PRODUCT_PACKAGES += \
     libbtconfigstore \
     libldacBT_bco \
     libldacBT_dec
+	
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/bluetooth/bt_mtk_iot_list.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/bt_mtk_iot_list.conf \
+    $(DEVICE_PATH)/bluetooth/mtk_bt_fw.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/mtk_bt_fw.conf \
+    $(DEVICE_PATH)/bluetooth/mtk_bt_stack.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/mtk_bt_stack.conf
 
 # Camera
 PRODUCT_PACKAGES += \
