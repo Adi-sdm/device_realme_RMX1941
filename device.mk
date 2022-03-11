@@ -86,7 +86,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.a2dp@1.0 \
     android.hardware.bluetooth.a2dp@1.0.vendor \
     android.hardware.bluetooth@1.0.vendor \
-    libbluetooth_audio_session.vendor \
     libbtconfigstore
 
 # Camera
