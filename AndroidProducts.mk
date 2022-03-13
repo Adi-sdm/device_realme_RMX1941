@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The Android Open Source Project 
+# Copyright (C) 2020 Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aosp_RMX1941.mk
-
+    $(LOCAL_DIR)/nad_RMX1941.mk
+	
 COMMON_LUNCH_CHOICES := \
-        aosp_RMX1941-eng \
-        aosp_RMX1941-user \
-        aosp_RMX1941-userdebug
+        nad_RMX1941-eng \
+        nad_RMX1941-user \
+        nad_RMX1941-userdebug

@@ -1,13 +1,8 @@
-Device Tree for Realme C2
-===========================================
-
-The Realme C2 is a budget range smartphone from Realme, announced in April 2019.
-
-## Device specifications
+## Device specifications 
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-OS	| Android 9.0 (pie)	
+RELEASE	| Android 9.0 (pie)	
 CPU     | Octa-core 2.0 GHz Cortex-A53
 Chipset | Mediatek MT6762 Helio P22 (12 nm)
 GPU     | PowerVR GE8320
@@ -21,23 +16,3 @@ Rear Camera Features | LED flash, HDR, panorama
 Video	| 1080p@30fps	
 Camera (Front)  | 5 MP, f/2.0, 1/5", 1.12µm
 Features| Accelerometer, proximity, compass	
-
-## Device picture
-
-![Realme C2](https://assets.mspimages.in/c/tr:w-1000,h-1000,c-at_max/15600-42-2.jpg "Realme C2")
-
-## Patches required
- 
-Bootup: 
-
-1) https://github.com/PixelExperience/external_selinux/commit/9d6ebe89430ffe0aeeb156f572b2a810f9dc98cc
-
-IMS-VoLTE:
-
-1) https://github.com/PixelExperience/frameworks_base/commit/37f5a323245b0fd6269752742a2eb7aa3cae24a7
-
-2) https://github.com/PixelExperience/frameworks_opt_net_wifi/commit/3bd2c14fbda9c079a4dc39ff4601ba54da589609
-
-3) https://github.com/PixelExperience/frameworks_opt_net_ims/commit/661ae9749b5ea7959aa913f2264dc5e170c63a0a
-
-
