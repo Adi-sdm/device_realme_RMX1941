@@ -27,14 +27,6 @@ dalvik.vm.dex2oat-threads=8
 dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 dalvik.vm.image-dex2oat-threads=8
 
-# Dalvik Heap
-dalvik.vm.heapstartsize=8m 
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heapsize=512m 
-dalvik.vm.heaptargetutilization=0.75 
-dalvik.vm.heapminfree=2m 
-dalvik.vm.heapmaxfree=8m
-
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
 
