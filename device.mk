@@ -373,6 +373,10 @@ PRODUCT_PACKAGES += \
 	
 PRODUCT_PACKAGES += \
     libsensorndkbridge
+	
+# SnapCamera
+PRODUCT_PACKAGES += \
+    Snap
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
