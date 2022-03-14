@@ -73,8 +73,7 @@ PRODUCT_COPY_FILES += \
   
 # PrebuiltPackages
 PRODUCT_PACKAGES += \
-    GoogleCameraGo \
-	Gboard
+    GoogleCameraGo
 	
 # Apns
 PRODUCT_COPY_FILES += \
