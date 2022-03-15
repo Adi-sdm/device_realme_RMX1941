@@ -145,6 +145,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     mtk-ims \
     mtk-ims-telephony
+	
+# IORap
+PRODUCT_PRODUCT_PROPERTIES += \
+     ro.iorapd.enable=true
 
 # ImsInit hack
 PRODUCT_PACKAGES += \
