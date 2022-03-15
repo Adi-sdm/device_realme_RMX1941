@@ -143,7 +143,7 @@ TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 # Treble
 BOARD_VNDK_VERSION := current
 PRODUCT_FULL_TREBLE_OVERRIDE := true
-LOCAL_PROPRIETARY_MODULE := true\
+LOCAL_PROPRIETARY_MODULE := true
 TARGET_COPY_OUT_PRODUCT := system/product
 
 # HWUI
