@@ -204,6 +204,9 @@ PRODUCT_BOOT_JARS += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
+	
+PRODUCT_PACKAGES += \
+    ImsServiceBase
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -214,9 +217,6 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Reduce system image size by limiting java debug info.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
-
-PRODUCT_PACKAGES += \
-    ImsServiceBase
 	
 # Vendor Overlay
 PRODUCT_COPY_FILES += \
