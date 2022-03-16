@@ -58,16 +58,12 @@ PRODUCT_COPY_FILES += \
   
 # Bluetooth
 PRODUCT_PACKAGES += \
-    bt_did \
 	bt_mtk_iot_list \
 	bt_stack \
-	mtk_bt_fw \
-	mtk_bt_stack
+	mtk_bt_fw
 	
 PRODUCT_COPY_FILES += \
-  $(DEVICE_PATH)/bluetooth/bt_did.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/bt_did.conf \
   $(DEVICE_PATH)/bluetooth/bt_mtk_iot_list.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/bt_mtk_iot_list.conf \
-  $(DEVICE_PATH)/bluetooth/bt_stack.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/bt_stack.conf \
   $(DEVICE_PATH)/bluetooth/mtk_bt_fw.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/mtk_bt_fw.conf \
   $(DEVICE_PATH)/bluetooth/mtk_bt_stack.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/bluetooth/mtk_bt_stack.conf
   
