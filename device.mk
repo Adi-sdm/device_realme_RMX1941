@@ -29,6 +29,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 # VNDK
