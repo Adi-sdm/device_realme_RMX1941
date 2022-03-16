@@ -4,6 +4,13 @@ cc_library_shared {
     shared_libs: ["libgui"],
 }
 
+cc_library_shared {
+    name: "libshim_vtservice",
+    srcs: ["libshim_vtservice.cpp"],
+    shared_libs: [
+    ],
+}
+
 java_library {
     name: "ImsServiceBase",
     installable: true,
