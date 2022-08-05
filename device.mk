@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # IMS
-$(call inherit-product, vendor/mtk-ims/ims.mk)
+$(call inherit-product, vendor/realme/RMX1941-ims/RMX1941-ims.mk)
 
 # RealmeDirac
 $(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
