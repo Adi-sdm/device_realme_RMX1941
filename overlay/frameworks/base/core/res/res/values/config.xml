@@ -245,7 +245,7 @@
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
-     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300%</fraction>
+     <fraction name="config_autoBrightnessAdjustmentMaxGamma">300.0%</fraction>
 	
     <!-- Whether to post reset runnable for all clients. Needed for some older
          vendor fingerprint HAL implementations. -->
@@ -275,7 +275,7 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
      <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
 
     <!-- Operating volatage for bluetooth controller. 0 by default-->
@@ -285,7 +285,7 @@
      <integer name="config_brightness_ramp_rate_fast">180</integer>
 
     <!-- Slow brightness animation ramp rate in brightness units per second-->
-     <integer name="config_brightness_ramp_rate_slow">40</integer>
+     <integer name="config_brightness_ramp_rate_slow">60</integer>
      <integer name="config_longPressOnHomeBehavior">0</integer>
 
     <!--  Maximum number of supported users -->
@@ -313,7 +313,7 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-     <integer name="config_screenBrightnessDim">10</integer>
+     <integer name="config_screenBrightnessDim">2</integer>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
@@ -666,57 +666,43 @@
         <item>3</item>
     </array>	
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>6</item>
-        <item>9</item>
-        <item>28</item>
-        <item>42</item>
-        <item>54</item>
-        <item>65</item>
-        <item>82</item>
-        <item>94</item>
-        <item>103</item>
+        <item>8</item>
+        <item>64</item>
+        <item>98</item>
+        <item>104</item>
         <item>110</item>
-        <item>120</item>
-        <item>130</item>
-        <item>140</item>
-        <item>180</item>
-        <item>208</item>
-        <item>230</item>
-        <item>240</item>
-        <item>245</item>
-        <item>248</item>
-        <item>252</item>
-        <item>315</item>
-        <item>378</item>
-        <item>441</item>
-        <item>504</item>
-        <item>1259</item>
+        <item>116</item>
+        <item>122</item>
+        <item>128</item>
+        <item>134</item>
+        <item>182</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>15</item>
-        <item>30</item>
-        <item>50</item>
-        <item>100</item>
-        <item>200</item>
-        <item>300</item>
-        <item>400</item>
-        <item>500</item>
-        <item>650</item>
-        <item>800</item>
-        <item>1000</item>
-        <item>1500</item>
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-        <item>7000</item>
-        <item>10000</item>
-        <item>12500</item>
-        <item>15000</item>
-        <item>17500</item>
-        <item>20000</item>
-        <item>50000</item>
+        <item>128</item>
+        <item>256</item>
+        <item>384</item>
+        <item>512</item>
+        <item>640</item>
+        <item>768</item>
+        <item>896</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>6144</item>
+        <item>8192</item>
+        <item>10240</item>
+        <item>12288</item>
+        <item>14336</item>
+        <item>16384</item>
+        <item>18432</item>
     </integer-array>
     <!-- FPSInfoService Fps file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/proc/fps_tm/fps_count</string>
